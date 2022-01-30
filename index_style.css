@@ -1,0 +1,218 @@
+/*
+Name : M-K-J;
+my first personel web site
+
+header     : 50
+navigation : 470
+aside      : 800
+*/
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #FBFCFC;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------- Header -------------------- */
+
+header{
+    position: fixed;
+    background-color: rgb(248, 248, 248);
+    /*background: linear-gradient(134deg, rgb(199, 15, 87) 1%, rgb(215, 169, 146) 80%);*/
+    width: 100%;
+    height: 50px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
+    z-index: 1000;
+}
+
+header ul{
+    text-align: right;
+    padding: 14px 0;
+    padding-right: 125px;
+}
+
+header ul li{
+    padding-right: 18px;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #00e7ff;
+}
+a:hover{
+    color: #363338;
+    
+    /*text-shadow: #363338 3px 5px 3px;*/
+}
+
+/* -------------------- Navigation -------------------- */
+
+nav{
+    padding-top: 80px;
+    padding: 240px 0 0 180px;
+    height: 435px;
+    line-height: 1.3;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.greating{
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Karla, sans-serif;
+    color: rgb(56, 56, 56);
+}
+
+#home_2{
+    font-size: 23px;
+    font-family: none;
+}
+
+#home_3{
+    padding-top: 7px;
+}
+
+#home #home_3 a{
+    padding-right: 5px;
+}
+
+/* -------------------- Article -------------------- */
+
+#About_me{
+    height: 752px;
+    background: linear-gradient(134deg, white 0%, #00e7ff 99%);
+    /*border: 3px red solid;*/
+}
+
+#About_me h2{
+    padding-top: 55px;
+    background-color: #FBFCFC;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00e7ff;
+    text-align: center;
+    letter-spacing: 1px;
+    height: 40px;
+}
+
+.para{
+    color: black;
+    width: 55%;
+    float: right;
+    margin: 10% 5% 0 0;
+    font-family: none;
+    font-size: 16px;
+    line-height: 150%;
+    font-size: 20px;
+}
+
+.img-article{
+    margin: 230px 0px 0px 125px;
+}
+
+.img-article img{
+    border-radius: 50%;
+    border: solid 5px white;
+    width: 250px;
+    height: auto;
+}
+
+.quote{
+    float: left;
+    margin: 50px 0 0 40%;
+    color:#3498DB;
+    letter-spacing: 3px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #FBFCFC;
+    box-shadow: rgb(0 0 0 / 10%) 5px 10px 0px;
+    width: 400px;
+    height: 50px;
+}
+span{
+    display: block;
+    text-align: right;
+    font-family:none;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+        /*------------ SKILLS ------------*/
+#skills{
+    height: 300px;
+}
+
+#skills h2{
+    margin: 50px 0 0 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00e7ff;
+    text-align: center;
+    letter-spacing: 1px;
+    height: 40px;
+}
+
+.photo img{
+    margin: 70px 40px 0 40px;
+}
+
+/* -------------------- Footer -------------------- */
+footer{
+
+}
+
+footer h2{
+    padding-top: 55px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00e7ff;
+    text-align: center;
+    letter-spacing: 1px;
+    height: 40px;
+}
+
+.hjnf{
+    margin: 50px;
+}
+
+footer p{
+    margin-top: 20px;
+    display: block;
+    font-family: Karla, sans-serif;
+    font-size: 20px;
+    rgb(56, 56, 56)
+}
+
+.develloper{
+    height: 50px;
+    background: linear-gradient(134deg, white 0%, #00e7ff 99%);
+    margin-bottom: 0px;
+}
+
+.develloper p{
+    font-family: Karla, sans-serif;
+    font-size: 17.5px;
+    text-align: center;
+    padding: 16.25px;
+}
+.develloper a{
+    font-family: Karla, sans-serif;
+    font-size: 17.5px;
+    text-align: center;
+    padding: 16.25px;
+    color: black;
+}
+
+.develloper a:hover{
+    color: white;
+}
